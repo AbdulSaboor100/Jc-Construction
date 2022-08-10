@@ -1,0 +1,503 @@
+//Mobile Css
+.folsom_ca_container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+
+  h2 {
+    font-size: 35px !important;
+    font-weight: 800 !important;
+    line-height: 136.6% !important;
+    @media only screen and (min-width: 600px) {
+      font-weight: 800 !important;
+      font-size: 60px !important;
+      line-height: 136.6% !important;
+    }
+  }
+  p {
+    line-height: 33px !important;
+  }
+
+  .hero_header_container {
+    max-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    .header_content {
+      position: relative;
+      z-index: 5;
+      overflow: hidden;
+      padding: 16rem 3rem 8.6rem 3rem;
+      h1 {
+        color: #f1f1f1;
+        text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.75);
+      }
+      h4 {
+        color: #fafafa;
+        margin-top: 2rem;
+      }
+    }
+    .btns_container {
+      margin-top: 1.5rem;
+      height: auto;
+      button {
+        margin-right: 1.5rem;
+      }
+    }
+  }
+  .self_card_container {
+    width: 100%;
+    height: 100%;
+    padding: 7.4rem 0;
+    .self_card_img_container {
+      padding: 0 2rem;
+    }
+    .self_card_content {
+      padding: 1rem 0;
+      .content_1 {
+        padding: 1.5rem;
+        background: #ffee8e;
+        p {
+          text-align: justify;
+        }
+      }
+      .content_2 {
+        padding: 1.5rem;
+        p {
+          text-align: justify;
+        }
+      }
+    }
+  }
+  .our_kitchen_remodels_container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #e7e7e7;
+    .remodels_header {
+      padding: 8.6rem 1.5rem 0rem 1.5rem;
+      text-align: center;
+      p {
+        padding: 2.5rem 0;
+      }
+    }
+    .btn_container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 3.6rem;
+      padding-bottom: 10rem;
+    }
+    .remodels_cards {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      z-index: 999;
+      .cards_layor {
+        background: #ffee8e;
+        height: 950px;
+        width: 100%;
+        max-width: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 7rem;
+        right: 0;
+      }
+      .cards_grid_container {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        z-index: 999;
+        .card_1 {
+          background: #ffffff;
+          box-shadow: 0px 4px 45px rgb(0 0 0 / 15%);
+          border-radius: 10px;
+          padding: 3rem 1.5rem;
+          min-width: 39vh;
+          margin-left: 2rem;
+          z-index: 999;
+
+          .card_content {
+            h3 {
+              padding: 2.6rem 0;
+              text-align: center;
+            }
+            p {
+              text-align: justify;
+              padding-bottom: 1rem;
+            }
+          }
+        }
+        .card_2 {
+          background: #ffffff;
+          box-shadow: 0px 4px 45px rgb(0 0 0 / 15%);
+          border-radius: 10px;
+          padding: 3rem 1.5rem;
+          margin-left: 2rem;
+          z-index: 999;
+          min-width: 39vh;
+          .card_content {
+            h3 {
+              padding: 2.6rem 0;
+              text-align: center;
+            }
+            p {
+              text-align: justify;
+              padding-bottom: 1rem;
+            }
+          }
+        }
+        .card_3 {
+          background: #ffffff;
+          box-shadow: 0px 4px 45px rgb(0 0 0 / 15%);
+          border-radius: 10px;
+          padding: 3rem 1.5rem;
+          margin-left: 2rem;
+          margin-right: 2rem;
+          min-width: 39vh;
+          z-index: 999;
+
+          .card_content {
+            h3 {
+              padding: 2.6rem 0;
+              text-align: center;
+            }
+            p {
+              text-align: justify;
+              padding-bottom: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  .why_choose_container {
+    width: 100%;
+    height: 100%;
+    padding: 8rem 0 12rem 0;
+    background: #1b1b1b;
+    .remodeling_header {
+      padding: 2rem;
+      text-align: center;
+      color: #ffffff;
+      h2 {
+        margin-bottom: 2rem;
+      }
+    }
+    .btn_container {
+      padding-top: 10rem;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .all_remodeling_container,
+    .all_remodeling_container2,
+    .all_remodeling_container3 {
+      padding: 5rem 1.5rem 0 1.5rem;
+      max-width: 1650px;
+      margin: 0 auto;
+      .romodeling_img {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          border-radius: 10px !important;
+        }
+      }
+      .about_us_content {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        color: #ffffff;
+        h4 {
+          margin-bottom: 3rem;
+        }
+        p {
+          text-align: justify;
+          margin-bottom: 1.5rem;
+        }
+        .tagline {
+          max-width: 100% !important;
+          width: 100%;
+          height: 68px;
+          background: #ffee8e;
+          margin: 1rem 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 1.5rem;
+          h4 {
+            font-weight: bold;
+            color: #070707;
+            margin-bottom: 0;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  .reach_out_container {
+    width: 100%;
+    height: 100%;
+    padding: 7rem 1.5rem;
+    h2 {
+      display: block;
+      margin-bottom: 2.5rem;
+    }
+    .reach_out_img_container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        border-radius: 10px;
+      }
+    }
+    h4 {
+      text-align: justify;
+      padding-bottom: 2rem;
+    }
+    .reach_out_content {
+      h2 {
+        display: none;
+      }
+      h4 {
+        display: none !important;
+      }
+      p {
+        text-align: justify;
+        margin-top: 2.5rem;
+      }
+      .btn_container {
+        width: 100%;
+        padding-top: 5rem;
+        button {
+          max-width: 100% !important;
+        }
+      }
+    }
+  }
+}
+
+//Desktop Css
+
+@media only screen and (min-width: 600px) {
+  .folsom_ca_container {
+    .hero_header_container {
+      align-items: flex-start;
+      min-height: 100vh !important;
+      padding-top: 170px;
+      @media only screen and (max-width: 1601px) {
+        // zoom: 80%;
+      }
+      .header_content {
+        padding: 3rem 6.5rem;
+        max-width: 1250px;
+        h4 {
+          margin: 3.6rem 0;
+        }
+      }
+    }
+    .self_card_container {
+      background: #ffffff;
+      padding: 12rem 0;
+      @media only screen and (max-width: 1601px) {
+        zoom: 80%;
+      }
+      .self_card_img_container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0;
+        padding-left: 7.5rem;
+      }
+      .self_card_content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 5rem;
+        position: relative;
+        top: 2rem;
+        .content_1 {
+          padding: 3rem 5rem;
+        }
+        .content_2 {
+          padding: 3rem 5rem;
+        }
+      }
+    }
+    .our_kitchen_remodels_container {
+      @media only screen and (max-width: 1601px) {
+        zoom: 80%;
+      }
+      @media only screen and (max-width: 1350px) {
+        zoom: 70%;
+      }
+      @media only screen and (max-width: 1150px) {
+        zoom: 60%;
+      }
+      padding-bottom: 15rem;
+      .remodels_header {
+        padding-top: 10rem;
+      }
+      .btn_container {
+        padding-bottom: 0;
+      }
+      .remodels_cards {
+        padding: 1rem 4rem;
+        .cards_layor {
+          background: #ffee8e;
+          height: 1200px;
+          width: 65%;
+          position: absolute;
+          z-index: -1;
+          top: 7rem;
+          right: 8rem;
+        }
+        .cards_grid_container {
+          @media only screen and (max-width: 900px) {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: scroll;
+            z-index: 999;
+          }
+          overflow: hidden;
+          .special_section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .card_1,
+          .card_2,
+          .card_3 {
+            .card_img_container {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .card_content {
+              padding-bottom: 8rem;
+              p {
+                padding-bottom: 2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    .why_choose_container {
+      padding: 12rem 0;
+      @media only screen and (max-width: 1601px) {
+        zoom: 80%;
+      }
+      .btn_container {
+        justify-content: flex-start;
+        padding-left: 1.5rem;
+        max-width: 1650px;
+        margin: auto;
+      }
+      .remodeling_header {
+        padding: 2rem 25rem;
+        p {
+          padding: 0 8rem;
+        }
+      }
+      .all_remodeling_container3,
+      .all_remodeling_container {
+        padding: 10rem 1.5rem 0 1.5rem;
+        .about_us_content {
+          padding-left: 2.5rem;
+          .tagline {
+            margin-top: 0;
+          }
+        }
+        .romodeling_img {
+          padding-right: 2.5rem;
+        }
+      }
+      .all_remodeling_container2,
+      .all_remodeling_container4 {
+        padding: 10rem 1.5rem 0 1.5rem;
+        .about_us_content {
+          padding-right: 2.5rem;
+        }
+        .romodeling_img {
+          padding-left: 2.5rem;
+        }
+      }
+    }
+    .reach_out_container {
+      background: #f0f0f0;
+      padding: 12rem 5rem 16rem 5rem;
+      @media only screen and (max-width: 1601px) {
+        zoom: 80%;
+      }
+      h2,
+      h4 {
+        display: none;
+      }
+      .reach_out_img_container {
+        height: 100%;
+      }
+      .reach_out_content {
+        height: 100%;
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        h2 {
+          display: block;
+        }
+        h4 {
+          display: block !important;
+        }
+        p {
+          text-align: justify;
+        }
+        .btn_container {
+          padding-top: 3rem;
+          width: 100%;
+          button {
+            max-width: 332px !important;
+          }
+        }
+      }
+    }
+  }
+}

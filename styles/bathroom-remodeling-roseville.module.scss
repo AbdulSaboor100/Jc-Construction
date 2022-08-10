@@ -1,0 +1,530 @@
+//Modile Css
+.bathroom_remodeling_container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+
+  h1 {
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    line-height: 129.4% !important;
+    @media only screen and (min-width: 600px) {
+      font-size: 55px !important;
+      line-height: 129.4% !important;
+    }
+  }
+
+  h2 {
+    font-weight: 800 !important;
+    line-height: 129.4% !important;
+    @media only screen and (min-width: 600px) {
+    }
+  }
+  h3 {
+    font-weight: 700 !important;
+    line-height: 144.9% !important;
+  }
+  h4 {
+    font-weight: 700 !important;
+  }
+
+  span {
+    font-family: "Poppins" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 19px !important;
+    line-height: 26px !important;
+  }
+
+  a {
+    color: blue !important;
+    text-decoration: underline !important;
+  }
+
+  .hero_header_container {
+    max-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 1rem;
+
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    .hero_img_1 {
+      width: auto;
+      height: 285px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .header_content {
+      position: absolute;
+      z-index: 5;
+      overflow: hidden;
+      @media only screen and (max-width: 1200px) {
+        max-width: 100%;
+      }
+      .content {
+        background: #ffffff;
+        opacity: 0.7;
+        padding: 1rem 0rem;
+        filter: drop-shadow(0px 14px 44px rgba(0, 0, 0, 0.45));
+        h1 {
+          color: #070707;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .what_happens_container {
+    width: 100%;
+    height: 100%;
+    padding: 4rem 0.5rem;
+    position: relative;
+    .what_happens_header {
+      text-align: center;
+      h2 {
+        margin-bottom: 2rem;
+      }
+      p {
+        margin-bottom: 2rem;
+      }
+    }
+    .what_happens_cards_container {
+      width: 100%;
+      height: 100%;
+      .what_happens_cards {
+        .what_happends_img_with_content {
+          max-width: 100%;
+          min-height: 100%;
+          height: 100%;
+          position: relative;
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          margin-bottom: 1rem;
+          .overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(
+              0deg,
+              rgba(0, 0, 0, 0.7),
+              rgba(0, 0, 0, 0.7)
+            );
+            z-index: 2;
+            cursor: pointer;
+          }
+          .img_content {
+            position: relative;
+            z-index: 5;
+            overflow: hidden;
+            padding: 4rem 1rem 2rem 1rem;
+            color: #ffffff;
+            .text_line {
+              width: 123px;
+              height: 5px;
+              background: #ffffff;
+            }
+            h4 {
+              margin-bottom: 1rem;
+            }
+            span {
+              display: block;
+              margin-top: 1.5rem;
+            }
+          }
+        }
+        .what_happends_content {
+          height: 100%;
+          background: #ffffff;
+          filter: drop-shadow(0px 14px 24px rgba(0, 0, 0, 0.35));
+          padding: 4rem 1rem 2rem 1rem;
+          margin-bottom: 1rem;
+          .text_line {
+            width: 123px;
+            height: 5px;
+            background: #070707;
+          }
+          h4 {
+            margin-bottom: 1rem;
+          }
+          span {
+            display: block;
+            margin-top: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+  .hire_us_container {
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+    .btn_container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5rem 0;
+    }
+    .hire_us_header_container {
+      text-align: center;
+      h3 {
+        margin-bottom: 1rem;
+      }
+    }
+    .hire_us_content_card_container {
+      width: 100%;
+      height: 100%;
+      .hire_us_card_content,
+      .hire_us_card_content_2 {
+        position: relative;
+        span {
+          margin-bottom: 1.5rem;
+        }
+        .hire_us_header {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          position: relative;
+          h4 {
+            text-align: start;
+            margin: 1.5rem 0;
+            border-left: 15px solid #e1d06f;
+            padding-left: 2rem;
+          }
+        }
+      }
+      .hire_us_card_img {
+        padding-top: 2rem;
+      }
+    }
+  }
+  .reach_out_container {
+    max-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    .header_content {
+      position: relative;
+      z-index: 5;
+      overflow: hidden;
+      padding: 6rem 1.5rem;
+      background: #00000085;
+      text-align: center;
+      h3 {
+        color: #ffffff;
+      }
+      p {
+        color: #ffffff;
+        margin-top: 2rem;
+      }
+      .btn_container {
+        width: 100%;
+        margin-top: 1.5rem;
+      }
+    }
+  }
+  .master_bathroom_container {
+    width: 100%;
+    height: 100%;
+    .master_bathroom_content_container {
+      width: 100%;
+      height: 100%;
+      padding: 3rem 1rem;
+      h3 {
+        margin-bottom: 1.5rem;
+      }
+      p {
+        margin-bottom: 1.5rem;
+      }
+      .btn_container {
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+    }
+    .master_bathroom_img_container {
+      width: 100%;
+      height: 100%;
+      padding: 0 2rem;
+      display: flex;
+      .master_img_1 {
+        transform: translate(-6px, -6px);
+        z-index: 20;
+      }
+      .master_img_2 {
+        z-index: 20;
+        transform: translate(0px, -6px);
+        position: relative;
+        .framing_black {
+          width: 135px;
+          height: 129px;
+          background: #070707;
+          position: absolute;
+          z-index: -1;
+          bottom: -10px;
+          left: -15px;
+        }
+      }
+      .master_img_3 {
+        position: relative;
+        transform: translate(-6px, -6px);
+        z-index: 20;
+        .framing_yellow {
+          width: 128px;
+          height: 122px;
+          background: #e1d06f;
+          position: absolute;
+          top: -15px;
+          right: -15px;
+          z-index: -1;
+        }
+      }
+      .master_img_4 {
+        z-index: 20;
+        transform: translate(6px, 0px);
+      }
+    }
+  }
+}
+//hehheh
+//Desktop Css
+
+@media only screen and (min-width: 600px) {
+  .hero_header_container {
+    @media only screen and (max-width: 1601px) {
+      zoom: 80%;
+      margin-top: 40px !important;
+    }
+
+    @media only screen and (min-width: 1200px) {
+      padding: 10rem 3rem 5rem 3rem;
+      margin-top: 120px;
+    }
+    @media only screen and (max-width: 600px) {
+      // margin-top: 1rem !important;
+    }
+    .hero_img_1 {
+      width: 100%;
+      height: 771px !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      @media only screen and (max-width: 1200px) {
+        height: 600px !important;
+      }
+    }
+    .header_content {
+      padding: 18rem 2rem !important;
+      max-width: 579px;
+      .content {
+        padding: 1rem 3rem !important;
+      }
+    }
+  }
+  .bathroom_remodeling_container {
+    background: #ffffff;
+  }
+  .what_happens_container {
+    @media only screen and (max-width: 1601px) {
+      zoom: 80%;
+    }
+    @media only screen and (max-width: 1025px) {
+      zoom: 70%;
+    }
+    .what_happens_header {
+      padding: 0 14rem 5rem 14rem;
+    }
+    .what_happens_cards_container {
+      padding: 0 3rem;
+      .what_happens_cards {
+        .what_happends_img_with_content {
+          margin: 0 0.5rem;
+          min-height: 565px !important;
+        }
+        .what_happends_content {
+          margin: 0rem 0.5rem 1rem 0.5rem;
+          min-height: 565px !important;
+        }
+      }
+    }
+  }
+  .hire_us_container {
+    padding: 0 4rem !important;
+    @media only screen and (max-width: 1601px) {
+      zoom: 80%;
+    }
+    .hire_us_header_container {
+      padding: 0 13rem 4rem 13rem !important;
+    }
+    .hire_us_content_card_container {
+      .black_box_1 {
+        width: 58px;
+        height: 52px;
+        background: #070707;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+      .black_box_2 {
+        width: 58px;
+        height: 52px;
+        background: #070707;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+      .black_box_3 {
+        width: 58px;
+        height: 52px;
+        background: #070707;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      .hire_us_card_content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 0 3rem;
+      }
+      .hire_us_card_content_2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 0 3rem 0 0;
+      }
+      .hire_us_header {
+        h4 {
+          border-left: 20px solid #e1d06f !important;
+        }
+      }
+      .hire_us_card_img {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0 !important;
+      }
+    }
+  }
+  .reach_out_container {
+    margin: 3rem 4rem 7rem 4rem;
+    @media only screen and (max-width: 1601px) {
+      zoom: 80%;
+    }
+    .header_content {
+      padding: 10rem 15rem 10rem 5rem !important;
+      text-align: start !important;
+      // from margin 4rem difference
+      h3 {
+        padding: 0 9rem !important;
+      }
+      p {
+        margin-top: 3rem !important;
+      }
+      .btn_container {
+        margin-top: 3rem !important;
+      }
+    }
+  }
+  .master_bathroom_container {
+    @media only screen and (max-width: 1601px) {
+      zoom: 80%;
+    }
+    padding: 0 3rem;
+    .master_bathroom_content_container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-right: 3rem !important;
+    }
+    .master_bathroom_img_container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      .master_img_1 {
+        transform: translate(-15px, -15px) !important;
+      }
+      .master_img_2 {
+        transform: translate(0px, -8px) !important;
+        .framing_black {
+          width: 235px !important;
+          height: 229px !important;
+          bottom: -20px !important;
+          left: -20px !important;
+        }
+      }
+      .master_img_3 {
+        transform: translate(-0px, -0px) !important;
+        .framing_yellow {
+          width: 228px !important;
+          height: 222px !important;
+          top: -20px !important;
+          right: -20px !important;
+        }
+      }
+      .master_img_4 {
+        transform: translate(15px, 10px) !important;
+      }
+    }
+  }
+}

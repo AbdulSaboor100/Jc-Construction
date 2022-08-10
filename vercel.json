@@ -1,0 +1,30 @@
+{
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/easy-financing-available",
+      "destination": "https://jcconstruction.us",
+      "statusCode": 301
+    },
+    {
+      "source": "/request-a-quote",
+      "destination": "https://jcconstruction.us/contact",
+      "statusCode": 301
+    },
+    {
+      "source": "/galleries",
+      "destination": "https://jcconstruction.us/gallery",
+      "statusCode": 301
+    },
+    {
+      "source": "/testimonials",
+      "destination": "https://jcconstruction.us",
+      "statusCode": 301
+    },
+    {
+      "source": "/our-team",
+      "destination": "https://jcconstruction.us",
+      "statusCode": 301
+    }
+  ]
+}
